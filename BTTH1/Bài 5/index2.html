@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 5 BTTH1</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        .menu {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+        }
+
+        .container {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse; 
+        }
+
+        th, td {
+            border: 1px solid #ddd; 
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .nut {
+            padding: 5px 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 3px;
+        }
+
+        .nut-xanh { background-color: blue; color: white; }
+        .nut-vang { background-color: orange; }
+        .nut-do { background-color: red; color: white; }
+    </style>
+</head>
+<body>
+
+    <div class="menu">
+        <strong>HR Management</strong>
+    </div>
+
+    <div class="container">
+        
+        <div style="display: flex; justify-content: space-between;">
+            <h2>Employee</h2>
+            <button class="nut nut-xanh">+ Add</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Position</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Fatima Beatriz</td>
+                    <td>fatima@gmail.com</td>
+                    <td>0985674321</td>
+                    <td>Staff</td>
+                    <td>
+                        <button class="nut nut-vang">Edit</button>
+                        <button class="nut nut-do">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Gabriel Hanna</td>
+                    <td>gabriel@gmail.com</td>
+                    <td>0353674231</td>
+                    <td>Staff</td>
+                    <td>
+                        <button class="nut nut-vang">Edit</button>
+                        <button class="nut nut-do">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Charles Diya</td>
+                    <td>charles@gmail.com</td>
+                    <td>0347658833</td>
+                    <td>Staff</td>
+                    <td>
+                        <button class="nut nut-vang">Edit</button>
+                        <button class="nut nut-do">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Frank Lamdo</td>
+                    <td>frank@gmail.com</td>
+                    <td>0975444768</td>
+                    <td>Manager</td>
+                    <td>
+                        <button class="nut nut-vang">Edit</button>
+                        <button class="nut nut-do">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Louis Tom</td>
+                    <td>louis@gmail.com</td>
+                    <td>0789568223</td>
+                    <td>Staff</td>
+                    <td>
+                        <button class="nut nut-vang">Edit</button>
+                        <button class="nut nut-do">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+</html>
