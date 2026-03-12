@@ -1,0 +1,25 @@
+body{
+font-family: Arial;
+margin:40px;
+}
+
+input{
+padding:6px;
+margin-top:5px;
+}
+
+button{
+padding:8px 15px;
+}
+
+.error{
+color:red;
+font-size:14px;
+margin-top:3px;
+}
+
+#success{
+font-size:20px;
+color:green;
+margin-top:20px;
+}
